@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+    height: 50px; 
+}
+
+.korzina h3 {
+    display: flex;
+    margin-left: 660px;
+    font-size: 25px;
+    font-weight:600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.result_5 {
+    width: 150px;
+    height: 30px;
+    background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px;
+}
+
+.result_all{
+    width: 150px;
+    height: 30px;
+    background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.item {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-top: 100px;
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border:2px solid black;
+}
+
+.item .descr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: black;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.56);
+ 
+}
+.header{
+    font-size: 19px;
+    font-weight:600;
+    color: #fff;
+}
+
+.btn-primary {
+    /* all: unset; */
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight:600;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+}
